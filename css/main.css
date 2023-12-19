@@ -1,0 +1,90 @@
+body{
+  background-color: #131316;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.logo img{
+  width: 50px;
+  position: relative;
+  padding: 4px 6px;
+  float: right;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #131316;
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #7d14143a;
+  transform: translateY(-3px);
+}
+
+.active {
+  position: relative;
+  background-color: #7d1414;
+}
+
+.banner-card {
+  position: relative;
+}
+
+.banner-card img {
+  width: auto;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.box {
+    color: #131316;
+}
